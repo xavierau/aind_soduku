@@ -3,11 +3,16 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A:
+
+1. Loop through each unit
+2. Find is there 2 box with identical value with length is two
+3. If twins value identified, loop through each box in the unit and remove corresponding character
+4. Repeat above step until all boxes in each unit cannot be further reduced
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Diagonal is just 2 more units. Two more constraints for the solution.
 
 ### Install
 
